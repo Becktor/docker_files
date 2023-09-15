@@ -23,6 +23,9 @@ RUN echo 'deb [trusted=yes] http://mrcal.secretsauce.net/packages/jammy/public/ 
 RUN apt-get update && \
     apt-get install -y sudo \
     zsh \
+    mesa-common-dev \
+    libfltk1.3-dev \
+    libfltk-gl1.3 \
     locales\
     mrcal \
     libmrcal-dev \ 
